@@ -1,0 +1,6 @@
+{
+  "name": "Mizan Waris",
+  "description": "Kalkulator Pembagian Waris Islam (Faraid) dan asisten cerdas Mizan waris.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#042F1A"/>
+      <stop offset="50%" stop-color="#093E2B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  
+  <!-- Outer Glow border -->
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="none" stroke="url(#goldGrad)" stroke-width="4" stroke-opacity="0.3"/>
+  <rect x="24" y="24" width="464" height="464" rx="104" fill="none" stroke="#10B981" stroke-width="2" stroke-opacity="0.4"/>
+  
+  <!-- Family Tree Silsilah Background Nodes (Stylized Connections) -->
+  <g opacity="0.25" stroke="#10B981" stroke-width="4" stroke-dasharray="8 6" fill="none">
+    <!-- Level 1 Node -->
+    <circle cx="256" cy="110" r="16" />
+    <path d="M256,126 L256,220" />
+    <!-- Level 2 Nodes -->
+    <path d="M120,240 L392,240" />
+    <circle cx="120" cy="240" r="12" />
+    <circle cx="392" cy="240" r="12" />
+    <!-- Level 3 Nodes -->
+    <path d="M120,252 L120,380" />
+    <path d="M392,252 L392,380" />
+    <circle cx="120" cy="380" r="12" />
+    <circle cx="392" cy="380" r="12" />
+  </g>
+
+  <!-- Islamic Geometric Accent -->
+  <g transform="translate(256, 110) scale(0.7)">
+    <polygon points="0,-40 28,-28 40,0 28,28 0,40 -28,28 -40,0 -28,-28" fill="url(#goldGrad)" opacity="0.9"/>
+    <circle cx="0" cy="0" r="15" fill="#042F1A"/>
+  </g>
+
+  <g transform="translate(120, 240) scale(0.4)">
+    <polygon points="0,-40 28,-28 40,0 28,28 0,40 -28,28 -40,0 -28,-28" fill="url(#goldGrad)"/>
+  </g>
+  <g transform="translate(392, 240) scale(0.4)">
+    <polygon points="0,-40 28,-28 40,0 28,28 0,40 -28,28 -40,0 -28,-28" fill="url(#goldGrad)"/>
+  </g>
+
+  <!-- Central Pillars & Scale of Justice (Faraid Scale) -->
+  <g stroke="url(#goldGrad)" stroke-linecap="round" fill="none">
+    <!-- Base -->
+    <path d="M176,420 L336,420" stroke-width="14" />
+    <path d="M206,420 L206,400 L306,400 L306,420" stroke-width="8" />
+    <!-- Main Column / Pillar -->
+    <path d="M256,200 L256,400" stroke-width="16" />
+    <!-- Scale Top beam -->
+    <path d="M136,210 L376,210" stroke-width="12" />
+    <!-- Pivot Center -->
+    <circle cx="256" cy="210" r="12" fill="url(#goldGrad)" />
+  </g>
+  
+  <!-- Left Pan and Chains -->
+  <g stroke="url(#goldGrad)" fill="none" stroke-linecap="round">
+    <!-- Chains -->
+    <path d="M136,210 L106,310" stroke-width="3" />
+    <path d="M136,210 L166,310" stroke-width="3" />
+    <!-- Pan -->
+    <path d="M90,310 L182,310 C182,340 90,340 90,310 Z" stroke-width="5" fill="#042F1A" fill-opacity="0.4"/>
+  </g>
+
+  <!-- Right Pan and Chains -->
+  <g stroke="url(#goldGrad)" fill="none" stroke-linecap="round">
+    <!-- Chains -->
+    <path d="M376,210 L346,310" stroke-width="3" />
+    <path d="M376,210 L406,310" stroke-width="3" />
+    <!-- Pan -->
+    <path d="M330,310 L422,310 C422,340 330,340 330,310 Z" stroke-width="5" fill="#042F1A" fill-opacity="0.4"/>
+  </g>
+
+  <!-- Center Deco Diamond -->
+  <polygon points="256,270 268,285 256,300 244,285" fill="url(#goldGrad)" />
+</svg>
